@@ -48,7 +48,7 @@ public class StackSorting {
 
         return athletes;
     }  
-    public static Stack<Integer> sortArray(Stack<Integer> athletes_weight){
+    public static Stack<Integer> sortStack(Stack<Integer> athletes_weight){
         /*
         Add your logic below to sort the array.*/
         
@@ -68,9 +68,9 @@ public class StackSorting {
         System.out.print("Unsorted:\t");
         printStack(weights_populated);   
         
-        /* Implement the sortArray method, so as to 
+        /* Implement the sortStack method, so as to 
         get the correct results.*/
-        Stack<Integer> sorted_array = sortArray(weights_populated);
+        Stack<Integer> sorted_array = sortStack(weights_populated);
         
         /* The two lines below will print the output. 
         Do not uncomment these lines.  */
