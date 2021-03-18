@@ -1,21 +1,4 @@
 import random
-def display(self,stack):
-		# This method is used to display the stack contents. 
-		# PS this method usage in stack-example folder.
-        # If stack is empty then return  
-        if (len(self.s) == 0): 
-            return  
-        x = self.s[len(self.s)-1]  
-        # Pop the top element of the stack  
-        self.s.pop()
-        # Print the stack element starting  
-        # from the bottom  
-        print(f"{x} ",end="")
-        # Recursively call the function PrintStack  
-        self.display(stack)  
-        # Push the same element onto the stack  
-        # to preserve the order  
-        self.s.append(x)
 def generate(athletes,size):
 	'''
         Data is prepared by inserting random values 
