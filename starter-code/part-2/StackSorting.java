@@ -1,6 +1,3 @@
-/*
-ADD HONOR CODE HERE.
-*/
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -29,7 +26,7 @@ public class StackSorting {
         /*
         Data is prepared by inserting random values 
         between 150 and 300. Data items may be assumed to 
-        be unique. 
+        be repeated. 
         Please refer to lab spec for the problem definiton.
         */
         // what is our range?
@@ -68,7 +65,8 @@ public class StackSorting {
 
         Stack<Integer> weights_populated = prepareData(athletes_weight, athletes);
 
-        
+        System.out.print("Unsorted:\t");
+        printStack(weights_populated);   
         
         /* Implement the sortArray method, so as to 
         get the correct results.*/
@@ -76,10 +74,9 @@ public class StackSorting {
         
         /* The two lines below will print the output. 
         Do not uncomment these lines.  */
-        System.out.print("Unsorted:\t");
-        printStack(weights_populated);   
-        System.out.print("\nSorted:\t");
+        System.out.print("\nSorted:\t\t");
         printStack(sorted_array);   
+        System.out.println();
         
     }   
 }
