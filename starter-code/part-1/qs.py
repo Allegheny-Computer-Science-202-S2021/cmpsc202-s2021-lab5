@@ -23,6 +23,7 @@ data = []
 size = int(input("Enter the no of items:")) # number of days provided by the user
 generate(data,size)
 print(f"unsorted:\t{data}")
+# Implement the Quick Sort methods, so as to get the correct results.
 start_sort(data)
 print(f"sorted:\t\t{data}")
 

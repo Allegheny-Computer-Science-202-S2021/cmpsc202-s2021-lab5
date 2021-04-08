@@ -34,7 +34,7 @@ public class RQS {
         /*
         Add your logic below to sort the array.
         and store the final output in data.
-        Create a separate method for Partition 
+        Create a separate method for Randomized Partition 
         use this method for main sorting procedure. */
     
 

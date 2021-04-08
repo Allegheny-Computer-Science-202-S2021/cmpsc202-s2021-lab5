@@ -14,7 +14,7 @@ def generate(athletes,size):
 def start_sort(data):
 	# Add your logic below to sort the list 
 	# and store the final output in data.
-	# Create a separate method for Partition 
+	# Create a separate method for Randomized Partition 
 	# use this method for main sorting procedure. 
 	pass
 
@@ -23,6 +23,7 @@ data = []
 size = int(input("Enter the no of items:")) # number of days provided by the user
 generate(data,size)
 print(f"unsorted:\t{data}")
+# Implement the Randomized Quick Sort methods, so as to get the correct results.
 start_sort(data)
 print(f"sorted:\t\t{data}")
 
