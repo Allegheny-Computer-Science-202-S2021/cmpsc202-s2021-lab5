@@ -1,5 +1,5 @@
 import random
-def generate(athletes,size):
+def generate(data,size):
 	'''
         Data is prepared by inserting random values 
         between 1 and 100. Data items may be assumed to 
@@ -8,13 +8,13 @@ def generate(athletes,size):
     '''
 	maximum = 100; # maximum weight of 300
 	for i in range(0,size):
-		athletes.insert(i,random.randint(1,maximum))
+		data.insert(i,random.randint(1,maximum))
 
 
 def start_sort(data):
 	# Add your logic below to sort the list 
 	# and store the final output in data.
-	# Create a separate method for Partition 
+	# Create a separate method for Merge procedure 
 	# use this method for main sorting procedure. 
 	pass
 
@@ -23,7 +23,7 @@ data = []
 size = int(input("Enter the no of items:")) # number of days provided by the user
 generate(data,size)
 print(f"unsorted:\t{data}")
-# Implement the Quick Sort methods, so as to get the correct results.
+# Implement the Merge Sort methods, so as to get the correct results.
 start_sort(data)
 print(f"sorted:\t\t{data}")
 

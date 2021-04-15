@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.ArrayList;
-public class RQS {
+public class MS {
     public static ArrayList<Integer> prepareData(ArrayList<Integer> data, int size){
         /*
         Data is prepared by inserting random values 
@@ -34,7 +34,7 @@ public class RQS {
         /*
         Add your logic below to sort the array.
         and store the final output in data.
-        Create a separate method for Randomized Partition 
+        Create a separate method for Merge procedure 
         use this method for main sorting procedure. */
     
 
@@ -52,7 +52,7 @@ public class RQS {
         System.out.print("Unsorted:\t");
         System.out.println(data);   
         
-        /* Implement the Randomized Quick Sort methods, so as to 
+        /* Implement the Merge Sort methods, so as to 
         get the correct results.*/
         ArrayList<Integer> sorted_array = start_sort(data);
         
